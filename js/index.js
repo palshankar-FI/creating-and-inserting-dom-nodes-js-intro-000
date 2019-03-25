@@ -4,3 +4,4 @@ var element = document.createElement('div');
 
 element.innerHTML = "Hello, DOM!";
 element.style.backgrounColor = '#f9f9f9';
+document.body.appendChild(element);
